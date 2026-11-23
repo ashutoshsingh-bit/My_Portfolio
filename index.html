@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashutosh Singh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Ashutosh Singh</h2>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hello, I'm <span>Ashutosh Singh</span></h1>
+            <h3>BTech Computer Science Student</h3>
+            <p>
+                I am studying Computer Science with a specialisation in
+                Data Science and Artificial Intelligence. I am interested
+                in programming, web development and learning new technologies.
+            </p>
+            <a href="#about" class="btn">Know More</a>
+        </div>
+        <div class="profile-box">
+            <div class="profile-placeholder">AS</div>
+            <p>Computer Science Student</p>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>
+                My name is Ashutosh Singh. I am pursuing BTech in Computer
+                Science with Data Science and Artificial Intelligence.
+                I enjoy learning programming and understanding how software
+                applications work.
+            </p>
+            <p>
+                I have learned the basics of HTML, CSS, JavaScript, Python,
+                Java and SQL. I am currently improving my practical skills
+                by creating small academic projects.
+            </p>
+            <p>
+                My aim is to become a skilled software developer and work
+                on useful technology-based solutions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education section -->
+    <section id="education" class="section light-section">
+        <h2 class="section-title">Education</h2>
+        <div class="education-card">
+            <h3>Bachelor of Technology (BTech)</h3>
+            <p><strong>Branch:</strong> Computer Science</p>
+            <p><strong>Specialisation:</strong> Data Science and Artificial Intelligence</p>
+            <p><strong>College:</strong>SHRI RAMSWAROOP MEMORIAL UNIVERSITY</p>
+            <p><strong>Status:</strong> Currently pursuing</p>
+        </div>
+        <div class="education-card">
+            <h3>Higher Secondary Education</h3>
+            <p>LAXMI NARAYANA COLLEGE, CHSE and 2023.</p>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">My Skills</h2>
+        <p class="section-description">Some technologies and tools I have learned so far.</p>
+        <div class="skills-list">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">Java</div>
+            <div class="skill-item">SQL</div>
+            <div class="skill-item">NumPy</div>
+            <div class="skill-item">Pandas</div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="section light-section">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Student Registration Form</h3>
+                <p>
+                    A simple form made to collect student information.
+                    This project helped me practise Java and database concepts.
+                </p>
+                <p class="technology"><strong>Technologies:</strong> Java, maven, swing, MySQL</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Interactive Signal Generator</h3>
+                <p>
+                    A basic project idea for generating different types of
+                    signals and understanding their waveforms.
+                </p>
+                <p class="technology"><strong>Technologies:</strong> Python, NumPy, Matplotlib, SciPy, streamlit</p>
+            </div>
+
+            <div class="project-card">
+                <h3>AI Voice Assistant</h3>
+                <p>
+                    A learning project idea based on using Python to recognise
+                    voice commands and perform simple tasks.
+                </p>
+                <p class="technology"><strong>Technology:</strong> Python, NumPy, Matplotlib, SciPy, streamlit</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-description">You can contact me using the form below.</p>
+
+        <form id="contactForm" class="contact-form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Write your message" required></textarea>
+
+            <button type="submit" class="btn">Submit</button>
+            <p id="formMessage" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-details">
+            <p><strong>Email:</strong> your.email@example.com</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/" target="_blank" rel="noopener">My GitHub Profile</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/" target="_blank" rel="noopener">My LinkedIn Profile</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Ashutosh Singh. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
